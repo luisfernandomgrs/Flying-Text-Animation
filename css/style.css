@@ -7,6 +7,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
+
 section {
     position: relative;
     display:flex;
@@ -14,15 +21,15 @@ section {
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
-    background: #130e23;
 }
 
 section .text {
     position: relative;
     text-align: center;
-    color: #00cefe;
+    color: #00f6fe;
     margin: 40px;
     max-width: 650px;
+    padding: 20px;
 }
 
 section .text span {
